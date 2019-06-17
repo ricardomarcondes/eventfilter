@@ -13,3 +13,18 @@ Please provide source, documentation on how to run the program and an explanatio
 ## Submission
 
 You may fork this repo, commit your work and let us know of your project's location, or you may email us your project files in a zip file.
+
+##########################################################################
+
+Instructions:
+1. Download and unzip the file
+2. Open terminal and change to dir where pom.xml is located
+3. Run the command: mvn clean install
+4. Run the command: mvn exec:java -Dexec.mainClass="com.event.manager.EventFilterManager"
+5. Verify the generate file report_final.csv
+
+Library/Tools used:
+1. IntelliJ -> In my opinion the best IDE for Java
+2. Maven	-> To easily manage the project structure and dependencies
+3. Jackson  -> To easily read/write JSON, XML and CSV files
+ 
